@@ -13,7 +13,7 @@ body {
 }
 
 .welcome {
-    background: rgb(232, 42, 42);
+    background: rgb(238, 113, 113);
     grid-column: 1 / -1;
     grid-row: 1 / 3;
     padding: 10px;
@@ -28,4 +28,24 @@ body {
     padding: 10px;
     border-radius: 3rem;
     box-shadow: 0 0 2rem black;
+}
+.H {
+    font-size: 80px;
+    color: rgb(240, 43, 43);
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.image {
+    width: 50%;
+justify-content: center;
+}
+.btn {
+    border-radius: 50px;
+    width: 20%;
+    text-align: center;
+    background: lightcoral;
+}
+button :hover {
+    color: red;
+    cursor: pointer;
 }
